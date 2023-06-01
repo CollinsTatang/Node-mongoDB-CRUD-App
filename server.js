@@ -83,7 +83,7 @@ app.listen(3000, ()=> {
     console.log('Listening to port 3000...')
 })
 
-mongoose.connect('mongodb+srv://makungongcollins:G8YF7aqpr6rlslIq@clusternode.u29i3cy.mongodb.net/Node-API?retryWrites=true&w=majority')
+mongoose.connect('')
 .then(() => {
     console.log('Connected to the database');
 }).catch((error) => {
